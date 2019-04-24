@@ -1,0 +1,32 @@
+body{
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  font-family: "blippo";
+  font-size: 2vw;
+}
+
+.title{
+  font-size: 5vw;
+}
+
+.menu{
+  display: flex;
+}
+
+@font-face {
+    font-family: 'blippo';
+    src: url('fonts/blippo.ttf');
+}
+
+.app{
+  width: 20vw;
+  height: 20vw;
+  background-color: white;
+  border: none;
+}
+
+.block{
+  display: block;
+  margin: auto;
+}
