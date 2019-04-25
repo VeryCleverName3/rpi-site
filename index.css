@@ -1,3 +1,25 @@
+@keyframes grow {
+  from {
+    width: 20vw;
+    height: 20vw;
+  }
+  to {
+    width: 22vw;
+    height: 22vw;
+  }
+}
+
+@keyframes shrink {
+  from {
+    width: 22vw;
+    height: 22vw;
+  }
+  to {
+    width: 20vw;
+    height: 20vw;
+  }
+}
+
 body{
   background-color: #333333;
   color: white;
@@ -20,12 +42,23 @@ body{
 }
 
 .app{
+  animation-name: shrink;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
   width: 20vw;
   height: 20vw;
   background-color: white;
   border: none;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.5vw #222222;
+}
+
+.app:hover{
+  animation-name: grow;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  width: 22vw;
+  height: 22vw;
 }
 
 .block{

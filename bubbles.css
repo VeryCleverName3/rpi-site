@@ -1,0 +1,9 @@
+.bubble {
+  height: 3vw;
+  width: 3vw;
+  background-color: #444444;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: -1;
+  position: absolute;
+}
